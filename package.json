@@ -1,0 +1,36 @@
+{
+  "name": "professional-course-design",
+  "version": "1.0.0",
+  "description": "Scratch sb3 程序分析系统",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js",
+    "demo:generate": "python3 scripts/generate_demo.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoujerryrui/professional-course-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zhoujerryrui/professional-course-design/issues"
+  },
+  "homepage": "https://github.com/zhoujerryrui/professional-course-design#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "yauzl": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
