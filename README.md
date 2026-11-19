@@ -1,3 +1,5 @@
+> **全栈教学平台升级版**：新增 React/TypeScript 工作台、教师学生权限、作业提交、后台分析及版本对比。启动方法与限制请先看 [PLATFORM.md](PLATFORM.md)。以下保留原课程设计说明。
+
 # Scratch Lens · Scratch 程序分析系统
 
 专业课程设计 II 题目七：上传 Scratch 3 `.sb3` 项目，提取程序量化指标并生成分析报告。
